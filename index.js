@@ -94,7 +94,7 @@ async function run() {
 
   const result= await  usercollaction.updateOne(filter,updateUser,option);
   res.send(result)
-  console.log(result);
+  // console.log(result);
 
  })
     
